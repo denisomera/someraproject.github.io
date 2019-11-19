@@ -1,0 +1,131 @@
+      body {
+          font-family: avenir;
+          background: #882222;
+          font-size: 10px;
+          letter-spacing: .5px;
+          line-height: 15px;
+      }
+
+      #music {
+          height: 20px;
+          padding-left: 525px;
+          padding-top: 20px;
+      }
+
+      #countdown {
+          padding-top: 450px;
+          padding-left: 515px;
+      }
+
+      #title {
+          font-family: 'League Script', cursive;
+          color: beige;
+          font-size: 75px;
+          font-weight: bold;
+          text-transform: lowercase;
+          text-align: center;
+          margin: 7px;
+          margin-top: 90px;
+          text-shadow: 2px 5px 3px black;
+      }
+
+      #home {
+          text-decoration: none
+      }
+
+      a {
+          border-bottom: 1px solid #eaeaea;
+          text-decoration: none;
+          color: #8a8a8a;
+          -webkit-transition: all 0.1s ease-in-out;
+          -moz-transition: all 0.1s ease-in-out;
+          -o-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+      }
+
+      a:hover {
+          cursor: help;
+          color: #d7d7d7;
+          /* link hover colours */
+          -webkit-transition: all 0.1s ease-in-out;
+          -moz-transition: all 0.1s ease-in-out;
+          -o-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+      }
+
+      section {
+          width: 400px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          border: 1px solid #eaeaea;
+          padding: 20px;
+          background: #fff;
+          border-radius: 5px;
+          margin-top: 30px;
+          box-shadow: 3px 3px 3px black;
+      }
+
+      .head {
+          margin-bottom: 10px;
+          padding-bottom: 15px;
+          text-align: left;
+          font-style: italic;
+          line-height: 40px;
+          font-size: 13px;
+          border-bottom: 1px solid #eaeaea;
+      }
+
+      .head img {
+          width: 40px;
+          height: 40px;
+          display: inline;
+          float: left;
+          border-right: 1px solid #eaeaea;
+          padding-right: 15px;
+      }
+
+      .head a {
+          border: none;
+          margin-left: 15px;
+      }
+
+
+      .title1 {
+          color: #000;
+          font-size: 13px;
+          font-weight: 700;
+          margin-bottom: 8px;
+      }
+
+      p {
+          margin: 10px 0px 0px 0px;
+          padding: 0;
+      }
+
+      .content {
+          line-height: 20px;
+          max-height: 250px;
+          overflow-y: auto;
+          text-align: justify;
+      }
+
+      .links a {
+          background: #cb8a8a;
+          color: #000;
+          text-align: center;
+          width: 30%;
+          display: inline-block;
+          border: 0px solid #eaeaea;
+          margin: 5px;
+          line-height: 18px;
+          padding: 5px 0;
+          align-content: center;
+      }
+
+      .links a:hover {
+          background: #7c2525;
+          color: #ffffff;
+          border-radius: 10px 10px 10px 10px;
+      }

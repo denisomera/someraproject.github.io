@@ -1,0 +1,124 @@
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #753726;
+}
+
+#content {
+    height: 100vw;
+    width: 100%;
+    position: fixed;
+}
+
+#right {
+    width: 40vw;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    background: #882222;
+    color: #efefef;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#left1 {
+    width: 60vw;
+    margin-right: 40vw;
+    height: 100vh;
+    background-image: url(bg1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#left2 {
+    width: 60vw;
+    margin-right: 10vw;
+    height: 100vh;
+    background: url(bg4.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.c a {
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    font-size: 11px;
+    font-family: calibri;
+    color: #000;
+    line-height: 100%;
+    z-index: 999;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 5px 8px 6px 8px;
+}
+
+#title {
+    font-family: 'Playfair Display', serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+#description {
+    font-family: avenir;
+    width: 30vw;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    text-align: justify; 
+}
+
+.links a {
+    background: #cb8a8a;
+    color: #000;
+    text-align: center;
+    width: 130px;
+    display: inline-grid;
+    border: 0px solid #eaeaea;
+    margin: 3px;
+    line-height: 16px;
+    padding: 3px 0;
+    font-family: avenir;
+    font-style: italic;
+}
+
+#bar {
+    background: white;
+}
+
+.links a:hover {
+    background: #ffffff;
+    color: #882222;
+    border-radius: 10px 10px 10px 10px;
+}
+
